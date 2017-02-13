@@ -141,9 +141,9 @@ function getStats(txt) {
         nChars: numberChars,
         nWords: numberWords,
         nLines: numberLines,
-        averageWordLength: avWordLen,
         nNonEmptyLines: numberLines - emptyLines,
         maxLineLength: maxLine,
+        averageWordLength: avWordLen,
         palindromes: listOfPalindromes,
         longestWords: sortLongestWords,
         mostFrequentWords: finalFreqWords
